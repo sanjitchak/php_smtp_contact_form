@@ -1,0 +1,27 @@
+<h4 style="color: white;" >Enquiry Form</h4>   
+   <style>
+        input[type=submit] {
+            background-color: blue;
+            color: white;
+            padding: 14px 20px;
+            border: none;
+            cursor: pointer;
+        }
+           input[type=text], input[type=email], input[type=tel], textarea {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+    </style>
+   <form action="https://pearlsanitary.com/mail.php" method="post" style="color: white;">
+        Name: <input type="text" name="name" required><br>
+        <br>
+        Email: <input type="email" name="email" required><br><br>
+        Phone: <input type="tel" name="phone" required><br><br>
+        Message:<br>
+        <textarea name="message" rows="5" cols="40" required></textarea><br>
+        <input type="submit">
+    </form>
